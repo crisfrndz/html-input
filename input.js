@@ -17,3 +17,11 @@ function display() {
       address
   );
 }
+
+function clearFields() {
+  document.getElementById("fname").value = "";
+  document.getElementById("mname").value = "";
+  document.getElementById("lname").value = "";
+  document.getElementById("bday").value = "";
+  document.getElementById("address").value = "";
+}
